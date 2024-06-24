@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    top: 0;
+    padding: 0;
+}
+.header{
+  background-color: aquamarine;
+  color: black;
+  text-align: center;
+}
+.fullBody{
+  display: flex;
+  flex-direction: row;
+  gap:50px;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: row;
+   width: 500px;
+
+}
+#pokemonSearch{
+  border: 1px solid greenyellow;
+  height: 40px;
+  width: 200px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+#generateButton{
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+
+}
+#listOfPokeMon{
+  padding-left: 30px;
+    width: 20%;
+    gap: 10px;
+   cursor: pointer;
+   border-radius: 10px;
+   width: 200px;
+   height: 800px;
+   overflow: scroll;
+}
+
+
+#pokemonDetails{
+   height: 100%;
+   width: 100%;
+   text-align: center;
+   color: black;
+   gap: 200px;
+   
+}
+ul li{
+   text-decoration: none;
+   padding: 20px;
+   list-style-type: none;
+   margin-top: 20px;
+}
